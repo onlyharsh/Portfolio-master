@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import myImg from "../../Assets/myImg.jpg";
+import myImg from "../../Assets/Projects/Harsh Image.jpeg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -20,37 +20,42 @@ function Home2() {
             <p>
               You can view or download my resume by clicking the button below.
             </p>
-            <Button variant="primary" href="https://drive.google.com/file/d/1hfpmFimmFhDzYh5lSrPg2kHaahOiTTuD/view?usp=drive_link" target="_blank">
+            <Button variant="primary" href="https://drive.google.com/file/d/1xDmWLcZTEDGnfqV59f_fke2O6taNCQtf/view?usp=drive_link" target="_blank">
               View / Download Resume
             </Button>
           </Col>
         </Row>
-          <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
-            </h1>
-            <p className="home-about-body">
-              I am a 3rd year undergraduate at NIT Jamshedpur
-              <br />
-             
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products. </b>
-              </i>
-              <br />
-              <br />
-              I am a <b className="purple">tech geek</b> and always learn and explore things related to <i><b className="purple">Technology and Softwares</b></i>.
-              <br />
-             
-              <br />
-              Currently I'm learning different <i><b className="purple">System Design Concepts</b></i> to make an application fast and scalable.
-              <br />
-              <br />
-              My hobbies are watching  <b className="purple" >movies, webseries and reading books</b>.
-              <br />
-            </p>
-          </Col>
+        <Col md={8} className="home-about-description">
+  <h1 style={{ fontSize: "2.6em" }}>
+    LET ME <span className="purple"> INTRODUCE </span> MYSELF
+  </h1>
+  <p className="home-about-body">
+    I am a <b className="purple">Data Engineer at ZS Associates, Gurgaon</b>, with a strong passion for building scalable and reliable software systems.
+    <br />
+    <br />
+    I have completed my <b className="purple">B.Tech in Electronics and Communication Engineering</b> from <b className="purple">NIT Jamshedpur</b>.
+    <br />
+    <br />
+    I have hands-on experience working with <b className="purple">Varicent ELT and SP tools</b>, contributing to data pipelines and analytics workflows.
+    <br />
+   
+    <br />
+    I am a <b className="purple">tech geek</b> and I continuously learn and explore new
+    <i>
+      <b className="purple"> technologies and software tools</b>
+    </i>.
+    <br />
+    <br />
+    Currently, I am preparing for a <b className="purple">Software Development Engineer (SDE)</b> role and learning
+    <i>
+      <b className="purple"> system design concepts</b>
+    </i> to build fast and scalable applications.
+    <br />
+    <br />
+    My hobbies include watching <b className="purple">movies and web series</b> and <b className="purple">reading books</b>.
+    <br />
+  </p>
+</Col>
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
